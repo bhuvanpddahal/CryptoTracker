@@ -7,14 +7,6 @@ import {
     SunIcon
 } from "@radix-ui/react-icons";
 import { useState } from "react";
-import { Rubik } from "next/font/google";
-
-import { cn } from "@/lib/utils";
-
-const rubik = Rubik({
-    subsets: ["latin"],
-    weight: ["700"]
-});
 
 const Navbar = () => {
     const [mode, setMode] = useState<"light" | "dark">("light");
@@ -39,10 +31,7 @@ const Navbar = () => {
                         height={35}
                         width={35}
                     />
-                    <h1 className={cn(
-                        rubik.className,
-                        "font-bold hidden sm:block"
-                    )}>
+                    <h1 className="font-bold hidden sm:block">
                         CryptoTracker
                     </h1>
                 </Link>

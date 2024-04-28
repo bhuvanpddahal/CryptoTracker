@@ -1,6 +1,7 @@
 import { Metadata } from "next";
 
 import HeroSection from "@/components/HeroSection";
+import SearchSection from "@/components/SearchSection";
 
 export const metadata: Metadata = {
     title: "CryptoTracker",
@@ -14,6 +15,7 @@ const HomePage = () => {
     return (
         <>
             <HeroSection />
+            <SearchSection />
         </>
     )
 };
