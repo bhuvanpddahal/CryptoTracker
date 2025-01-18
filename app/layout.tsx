@@ -27,6 +27,14 @@ export default function RootLayout({
 
     return (
         <html lang="en">
+            <head>
+                <script
+                  defer
+                  data-website-id="678bb5e802ac6de9a185fcf6"
+                  data-domain="crypto-tracker-theta-henna.vercel.app"
+                  src="https://datafa.st/js/script.js">
+                </script>
+            </head>
             <body className={cn(
                 spaceGrotesk.className,
                 // mode === "dark" && "dark"
